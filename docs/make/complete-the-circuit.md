@@ -16,14 +16,14 @@ https://youtu.be/Fl0ZfR26OB8
 * 1 piece of paper, any size and material 
 * Tape 
 
-![Construction: paper and tape](/static/cp/tutorial/ctc/construction.jpg)
+![Construction: paper and tape](/docs/static/cp/tutorial/ctc/construction.jpg)
 
 ### Electronics
 * 1 @boardname@ with programming cable  
 * LED stickers 
 * Copper tape 
 
-![Electronic: chibi chip, programming cable, LED, copper tape](/static/cp/tutorial/ctc/electronic.jpg)
+![Electronic: chibi chip, programming cable, LED, copper tape](/docs/static/cp/tutorial/ctc/electronic.jpg)
 
 ## Activities 
 * [Make](/make/complete-the-circuit/make)

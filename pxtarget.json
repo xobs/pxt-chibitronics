@@ -135,16 +135,16 @@
     "appTheme": {
         "accentColor": "#17C7D1",
         "logoUrl": "http://chibitronics.com/",
-        "logo": "./static/chibitronics_logo_white.svg",
-        "docsLogo": "./static/logo.square.white.svg",
-        "portraitLogo": "./static/logo.square.white.svg",
-        "footerLogo": "./static/logo.portrait.white.svg",
-        "cardLogo": "./static/icons/apple-touch-icon.png",
-        "appLogo": "./static/icons/apple-touch-icon.png",
+        "logo": "/docs/static/chibitronics_logo_white.svg",
+        "docsLogo": "/docs/static/logo.square.white.svg",
+        "portraitLogo": "/docs/static/logo.square.white.svg",
+        "footerLogo": "/docs/static/logo.portrait.white.svg",
+        "cardLogo": "/docs/static/icons/apple-touch-icon.png",
+        "appLogo": "/docs/static/icons/apple-touch-icon.png",
         "organization": "Microsoft",
         "organizationUrl": "https://makecode.com",
-        "organizationLogo": "./static/Microsoft-logo_rgb_c-gray-square.png",
-        "organizationWideLogo": "./static/Microsoft-logo_rgb_c-white.png",
+        "organizationLogo": "/docs/static/Microsoft-logo_rgb_c-gray-square.png",
+        "organizationWideLogo": "/docs/static/Microsoft-logo_rgb_c-white.png",
         "homeUrl": "https://makecode.chibitronics.com/",
         "embedUrl": "https://makecode.chibitronics.com/",
         "privacyUrl": "https://makecode.com/privacy",
@@ -154,21 +154,21 @@
         "crowdinProject": "kindscript",
         "boardName": "Chibi Chip",
         "showHomeScreen": true,
-        "homeScreenHero": "./static/getting-started/getting-started.png",
+        "homeScreenHero": "/docs/static/getting-started/getting-started.png",
         "usbDocs": "/upload",
         "sideDoc": "tutorials/getting-started",
         "docMenu": [
             {
                 "name": "About",
-                "path": "/about"
+                "path": "/about.html"
             },
             {
                 "name": "Docs",
-                "path": "/docs"
+                "path": "/docs.html"
             },
             {
                 "name": "Chibi Scope setup",
-                "path": "/scope-setup"
+                "path": "/scope-setup.html"
             },
             {
                 "name": "Buy",

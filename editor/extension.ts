@@ -17,7 +17,7 @@ namespace chibitronics {
             <div class="column">
                 <div class="ui">
                     <div class="image">
-                        <img class="ui medium rounded image" src="./static/download/plugin.png" style="height:150px">
+                        <img class="ui medium rounded image" src="/docs/static/download/plugin.png" style="height:150px">
                     </div>
                     <div class="content">
                         <div class="description">
@@ -30,7 +30,7 @@ namespace chibitronics {
             <div class="column">
                 <div class="ui">
                     <div class="image">
-                        <img class="ui medium rounded image" src="./static/download/plugincomp.png" style="height:150px">
+                        <img class="ui medium rounded image" src="/docs/static/download/plugincomp.png" style="height:150px">
                     </div>
                     <div class="content">
                         <div class="description">
@@ -43,7 +43,7 @@ namespace chibitronics {
             <div class="column">
                 <div class="ui">
                     <div class="image">
-                        <img class="ui medium rounded image" src="./static/download/reset.png" style="height:150px">
+                        <img class="ui medium rounded image" src="/docs/static/download/reset.png" style="height:150px">
                     </div>
                     <div class="content">
                         <div class="description">

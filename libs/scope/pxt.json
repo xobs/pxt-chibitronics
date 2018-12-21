@@ -1,7 +1,7 @@
 {
     "name": "scope",
     "description": "The chibitronics SCOPE library.",
-    "icon": "./static/libs/scope.jpg",
+    "icon": "/docs/static/libs/scope.jpg",
     "files": [
         "README.md",
         "serial.cpp",

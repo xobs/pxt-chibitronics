@@ -51,6 +51,7 @@
   "loops.pause|block": "pause %ms=timePicker|ms",
   "loops.timePicker|block": "%ms",
   "loops|block": "loops",
+  "parseFloat|block": "parse to number %text",
   "parseInt|block": "parse to integer %text",
   "pins.analogPinMode|block": "set analog pin |mode %pin=analog_pin|to %mode",
   "pins.analogPin|block": "%pin",

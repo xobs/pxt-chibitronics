@@ -8,7 +8,7 @@ for the [Chibitronics Chibi Chip](https://chibitronics.com/shop/love-to-code-chi
 ## Documentation
 
 * [About](/about)
-* [Examples](/examples)
+* [Examples](/docs/examples)
 * [Make](/make)
 * [Blocks](/blocks)
 * [JavaScript](/javascript)

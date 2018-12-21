@@ -7,9 +7,9 @@ Here are some fun programs for your @boardname@!
 ```codecard
 [{
   "name": "Fade",
-  "url":"/examples/basics/fade",
+  "url":"/docs/examples/basics/fade",
   "cardType": "example",
-  "imageUrl":"/static/chibi/examples/mc-fade-final.gif",
+  "imageUrl":"/docs/static/chibi/examples/mc-fade-final.gif",
   "description": "See how Chibi Chip can change the brightness of an LED."
 }]
 ```
@@ -19,16 +19,16 @@ Here are some fun programs for your @boardname@!
 ```codecard
 [{
   "name": "Carousel",
-  "url":"/examples/animations/carousel",
+  "url":"/docs/examples/animations/carousel",
   "cardType": "example",
-  "imageUrl":"/static/chibi/examples/mc-carousel-final.gif",
+  "imageUrl":"/docs/static/chibi/examples/mc-carousel-final.gif",
   "description": "Rotate through all the LEDs turning them on and off."
 
 }, 
 {
   "name": "Light Cascade", 
-  "url":"/examples/animations/cascade",
-  "imageUrl":"/static/chibi/examples/mc-cascade-final.gif",
+  "url":"/docs/examples/animations/cascade",
+  "imageUrl":"/docs/static/chibi/examples/mc-cascade-final.gif",
   "description": "Change the brightness of each LED separately making a cascade effect."
 }]
 ```
