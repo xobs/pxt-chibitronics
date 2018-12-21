@@ -51,6 +51,27 @@ namespace rgb {
     }
 
     /**
+     * Make the on-board RGB LED show an RGB color (range 0-255 for r, g, b).
+     * @param chainLength number of leds in the chain value, eg: 17
+     * @param rgb RGB color of the LED, eg: 0xff0000
+     */
+    //% blockId="rgb_set_color_chain" block="set a chain of %chainLength rgb leds to %rgb=colorNumberPicker"
+    //% weight=90 help="rgb/set-color-chain"
+    //% chainLength.min=0 chainLength.max=100
+    export function setColorChain(chainLength: number, rgb: number) {
+        if (_brightness == undefined) {
+            _brightness = 20;
+        }
+
+        rgb = fade(rgb, _brightness);
+        let red = unpackR(rgb);
+        let green = unpackG(rgb);
+        let blue = unpackB(rgb);
+
+        setRGBLedChainSame(red, green, blue, chainLength);
+    }
+
+    /**
      * Set the brightness of the LED. This change the brightness for the next operation.
      * @param brightness a measure of LED brightness in 0-100. eg: 15
      */
