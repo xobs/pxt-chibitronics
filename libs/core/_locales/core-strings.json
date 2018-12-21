@@ -65,6 +65,7 @@
   "rgb.dim|block": "dim %rgb=rgb_colors |%level",
   "rgb.rgb|block": "red %red|green %green|blue %blue",
   "rgb.setBrightness|block": "set brightness %brightness",
+  "rgb.setColorChain|block": "set a chain of %chainLength rgb leds to %rgb=colorNumberPicker",
   "rgb.setColor|block": "set rgb to %rgb=colorNumberPicker",
   "rgb.wheel|block": "color slider %wheelPos=colorWheelPicker",
   "rgb|block": "rgb",
