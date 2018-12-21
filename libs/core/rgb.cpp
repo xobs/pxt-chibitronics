@@ -34,4 +34,28 @@ namespace rgb {
         pixels[0].b = b;
         ledShow(LED_BUILTIN_RGB, pixels, 1);
     }
+
+    /**
+     * Set a chain of rgb leds to a specific red, green, blue color.
+     * @param red the red color
+     * @param green the green color
+     * @param blue the blue color
+     * @param n the number of leds to set
+     */
+     //% parts="rgbled"
+    void setRGBLedChainSame(int r, int g, int b, int n) {
+        unsigned int i;
+        if (r < 0 || r > 255 || g < 0 || g > 255 || b < 0 || b > 255) {
+            return;
+        }
+
+        struct pixels pixels[n];
+        for (i = 0; i < n; i++) {
+            pixels[i].r = r;
+            pixels[i].g = g;
+            pixels[i].b = b;
+        }
+        ledShow(LED_BUILTIN_RGB, pixels, n);
+    }
+
 }
